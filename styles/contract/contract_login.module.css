@@ -1,0 +1,119 @@
+#login {
+  height: 100%;
+  background-color: #f5f7fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  #login #loginbox {
+      width: 420px;
+      height: 520px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      #login #loginbox #rightinput {
+          background-color: white;
+          width: 100%;
+          height: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+      #login #loginbox #rightinput #logo {
+          margin-top: 110px;
+          position: absolute;
+          width: 106px;
+          height: 58px;
+          /* background-image: url("../static/img/login-logo.png"); */
+          background-repeat: no-repeat;
+          background-size: contain; }
+      #login #loginbox #rightinput #inputcontainer {
+          width: 305px;
+          margin-top: 210px;
+          position: relative; }
+          #login #loginbox #rightinput #inputcontainer input {
+              height: 48px;
+              width: 305px;
+              margin-bottom: 15px;
+              border-radius: 3px; }
+          #login #loginbox #rightinput #inputcontainer input.contract::-webkit-input-placeholder {
+              /* WebKit browsers */
+              color: #595b62; }
+          #login #loginbox #rightinput #inputcontainer input.contract:-moz-placeholder {
+              /* Mozilla Firefox 4 to 18 */
+              color: #595b62; }
+          #login #loginbox #rightinput #inputcontainer input.contract::-moz-placeholder {
+              /* Mozilla Firefox 19+ */
+              color: #595b62; }
+          #login #loginbox #rightinput #inputcontainer input.contract:-ms-input-placeholder {
+              /* Internet Explorer 10+ */
+              color: #595b62; }
+          #login #loginbox #rightinput #inputcontainer #findcontainer {
+              position: absolute;
+              right: 0px;
+              margin-top: 20px;
+              font-size: 9pt;
+              color: #595b62; }
+          #login #loginbox #rightinput #inputcontainer #findcontainer a {
+              color: #595b62; }
+          #login #loginbox #rightinput #inputcontainer #findcontainer .divider {
+              margin-left: 15px;
+              margin-right: 15px;
+              background-color: transparent; }
+      
+      #login #loginbox #rightinput #loginbtn {
+          width: 100%;
+          height: 48px;
+          background-color: #42BBEC; 
+          border: none; }
+              
+
+          input.contract:not([type]), input[type=text].contract:not(.browser-default), input[type=tel].contract:not(.browser-default) {
+              padding-left: 5px !important;
+                  -webkit-box-sizing: border-box;
+                      box-sizing: border-box;
+              font-size: 9pt;
+              border: 1px solid #d0d6e6;
+              background-color: #fff;
+              height: 17pt; }
+              input.contract:not([type]):focus, input[type=text].contract:not(.browser-default):focus, input[type=tel].contract:not(.browser-default):focus {
+              border-bottom: 1px solid #d0d6e6; }
+              input.contract:not([type]).left-margin, input[type=text].contract:not(.browser-default).left-margin, input[type=tel].contract:not(.browser-default).left-margin {
+              margin-left: 5px; }
+              input.contract:not([type]):not(.select-dropdown):-moz-read-only, input[type=text].contract:not(.browser-default):not(.select-dropdown):-moz-read-only, input[type=tel].contract:not(.browser-default):not(.select-dropdown):-moz-read-only {
+              background-color: #dddddd; }
+              input.contract:not([type]):not(.select-dropdown):read-only, input[type=text].contract:not(.browser-default):not(.select-dropdown):read-only, input[type=tel].contract:not(.browser-default):not(.select-dropdown):read-only {
+              background-color: #dddddd; }
+              input.contract:not([type]):not(.select-dropdown):disabled, input[type=text].contract:not(.browser-default):not(.select-dropdown):disabled, input[type=tel].contract:not(.browser-default):not(.select-dropdown):disabled {
+              background-color: #dddddd; }
+.btn {
+  border-radius: 2px !important;
+  font-size: 9pt !important;
+  height: 28px;
+  color: #fff;
+  line-height: 1.15;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important; }
+
+.title {
+  text-align: left;
+  position: absolute;
+  margin-top: 410px;
+  margin-left: 60px;
+  font-size: 13px;
+  font-weight: 500;
+  width: 300px;
+  color: #42BBEC;
+
+}
